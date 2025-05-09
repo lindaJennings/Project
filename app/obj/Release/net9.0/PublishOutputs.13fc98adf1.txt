@@ -1,0 +1,4 @@
+C:\Users\heini\Project\app\dist\out\web.config
+C:\Users\heini\Project\app\dist\out\app.staticwebassets.endpoints.json
+C:\Users\heini\Project\app\dist\out\wwwroot\_framework\blazor.boot.json
+C:\Users\heini\Project\app\dist\web.config

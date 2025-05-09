@@ -1,0 +1,107 @@
+@page "/matchgame"
+@using System.Timers
+
+<h3>Match Game</h3>
+<p>@displayTime</p>
+
+<div class="grid">
+    @foreach (var emoji in emojis)
+    {
+        <button class="card" @onclick="() => CardClicked(emoji)" disabled="@emoji.Matched">
+            @(!emoji.Hidden || emoji.Matched ? emoji.Symbol : "❓")
+        </button>
+    }
+</div>
+
+@if (matchesFound == 8)
+{
+    <p><button @onclick="SetUpGame">Play Again?</button></p>
+}
+
+@code {
+    class EmojiCard
+    {
+        public string Symbol { get; set; }
+        public bool Hidden { get; set; } = true;
+        public bool Matched { get; set; } = false;
+    }
+
+    List<EmojiCard> emojis = new();
+    EmojiCard lastCard = null;
+    bool findingMatch = false;
+    int matchesFound = 0;
+
+    Timer timer;
+    double elapsedTenths = 0;
+    string displayTime = "0.0s";
+
+    protected override void OnInitialized()
+    {
+        SetUpGame();
+    }
+
+    void SetUpGame()
+    {
+        var symbols = new List<string>
+        {
+            "🐼","🐼",
+            "🐸","🐸",
+            "🐔","🐔",
+            "🐌","🐌",
+            "🐶","🐶",
+            "🐵","🐵",
+            "🐯","🐯",
+            "🦀","🦀",
+        };
+
+        var rnd = new Random();
+        emojis = symbols.OrderBy(_ => rnd.Next()).Select(s => new EmojiCard { Symbol = s }).ToList();
+
+        matchesFound = 0;
+        elapsedTenths = 0;
+        displayTime = "0.0s";
+        findingMatch = false;
+        lastCard = null;
+
+        timer?.Stop();
+        timer = new Timer(100);
+        timer.Elapsed += (s, e) =>
+        {
+            elapsedTenths++;
+            InvokeAsync(() => displayTime = $"{elapsedTenths / 10.0:0.0}s");
+            if (matchesFound == 8) timer.Stop();
+        };
+        timer.Start();
+    }
+
+    async Task CardClicked(EmojiCard clicked)
+    {
+        if (!clicked.Hidden || clicked.Matched) return;
+
+        clicked.Hidden = false;
+
+        if (!findingMatch)
+        {
+            lastCard = clicked;
+            findingMatch = true;
+        }
+        else
+        {
+            if (clicked.Symbol == lastCard.Symbol)
+            {
+                clicked.Matched = true;
+                lastCard.Matched = true;
+                matchesFound++;
+            }
+            else
+            {
+                await Task.Delay(500);
+                clicked.Hidden = true;
+                lastCard.Hidden = true;
+            }
+
+            findingMatch = false;
+            lastCard = null;
+        }
+    }
+}
