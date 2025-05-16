@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/khk/SR9YHtZC5hAOvwCHrcHteCKDCNlI2dasPbdf9k=",
+  "Hash": "5RsNQDtTymhYYkJ0uyZAsZreu+VmJ7ZFIEHr+rkWpFA=",
   "Source": "app",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,6 +17,90 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gcvjxldlff",
+      "Integrity": "kJXKqRCleT/Jk1wJUhUu24r2LAA7IWVYmdoENizE38M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\AuthenticationService.js"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Css.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Css#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "7mdf44eez8",
+      "Integrity": "r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\AngleSharp.Css.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Diffing.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Diffing#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "deey92gx9y",
+      "Integrity": "m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\AngleSharp.Diffing.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "up7648hgwu",
+      "Integrity": "kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\AngleSharp.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -31,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "qefjphl22s",
-      "Integrity": "Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA=",
+      "Fingerprint": "tj8moncj9t",
+      "Integrity": "N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\app.pdb"
@@ -52,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ih93s8u2ik",
-      "Integrity": "OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M=",
+      "Fingerprint": "qk2g4yebbu",
+      "Integrity": "9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\app.wasm"
@@ -73,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "9fwxztxfda",
-      "Integrity": "ZYlp9Mj+koIh7FX4f0GJXUba5ixl0/p8PsmCQ/dm6Mg=",
+      "Fingerprint": "ebsb2l20eh",
+      "Integrity": "Gjo794ZIyK0ys+q85itqViC/sSKs5D1YMGtOxQn9Jfk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -99,6 +183,48 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.4\\build\\net9.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Core.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bunit.Core#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "ocntt9ppi1",
+      "Integrity": "iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Bunit.Core.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Web.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bunit.Web#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "a4h8u089jo",
+      "Integrity": "VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Bunit.Web.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js",
@@ -311,6 +437,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Authorization.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "vum2aqzk55",
+      "Integrity": "NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -374,6 +521,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "syfcl4vhll",
+      "Integrity": "LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -435,6 +603,48 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.CSharp.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "n4gdu15a69",
+      "Integrity": "GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Caching.Abstractions.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "m0zs95a2si",
+      "Integrity": "Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Caching.Memory.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.wasm",
@@ -645,6 +855,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.FileSystemGlobbing.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "o4jp2hcm79",
+      "Integrity": "GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Localization.Abstractions.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
@@ -4301,6 +4532,90 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\WindowsBase.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.abstractions.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "4ksum12hez",
+      "Integrity": "FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\xunit.abstractions.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.assert.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.assert#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "y7eb9mzies",
+      "Integrity": "QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\xunit.assert.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.core.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.core#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "vzmut3xs2n",
+      "Integrity": "FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\xunit.core.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.execution.dotnet.wasm",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.execution.dotnet#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "f9tlfgrcb7",
+      "Integrity": "nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\webcil\\xunit.execution.dotnet.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\03clsf53wg-utzznwyhqi.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -4973,7 +5288,7 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.SecureString.wasm"
     },
     {
-      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-9fwxztxfda.gz",
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-ebsb2l20eh.gz",
       "SourceId": "app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
@@ -4987,8 +5302,8 @@
       "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dtmmx1d3n1",
-      "Integrity": "ARJCf5z/gyh6O5NhE3x24ioJQImR+HOJ7WkUReoJn2w=",
+      "Fingerprint": "80ml99ji8s",
+      "Integrity": "qH8Mwdp/qsBMJ0D77opWn9L7DrAvirOc3UXFeSZYVEE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5055,6 +5370,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5haehok5xb-7mdf44eez8.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Css#[.{fingerprint=7mdf44eez8}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Css.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sfxkrmlhp6",
+      "Integrity": "SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Css.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5s815hlus0-coynl9ayrk.gz",
@@ -5498,6 +5834,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Text.Encoding.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8ne9em6ssw-f9tlfgrcb7.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.execution.dotnet#[.{fingerprint=f9tlfgrcb7}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.execution.dotnet.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7obtl99r34",
+      "Integrity": "Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.execution.dotnet.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8uf5tv18dc-ffzrnftong.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -5538,6 +5895,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8vo6lpqspn-a4h8u089jo.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bunit.Web#[.{fingerprint=a4h8u089jo}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Web.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ci94zix34n",
+      "Integrity": "JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Web.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\94fy7woqiu-8sirrf1ijn.gz",
@@ -6422,6 +6800,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\dufnr5lu0a-m0zs95a2si.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory#[.{fingerprint=m0zs95a2si}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "99zs04iy9j",
+      "Integrity": "fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\eavs0i7ub7-srbzsu00e3.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -6569,6 +6968,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\f32kn295nz-gcvjxldlff.gz",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\AuthenticationService.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "max6bozg23",
+      "Integrity": "Dmk/HbaCkisGr8Vgk5M4ZS0yeQNNs/uoWecA7Wrysbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\AuthenticationService.js"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\fg5rk4v589-39ux8kct4v.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -6672,6 +7092,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Principal.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\gi4i2jnckr-n4gdu15a69.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions#[.{fingerprint=n4gdu15a69}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6guhz3pcbw",
+      "Integrity": "ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\guogh7b8z9-dw9trzj7vz.gz",
@@ -6861,6 +7302,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\hg20r6hb3d-syfcl4vhll.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication#[.{fingerprint=syfcl4vhll}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gr76qkc5lg",
+      "Integrity": "zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\i1k7oh6wwz-8c4uwwg311.gz",
@@ -7829,6 +8291,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\o7ilqjjgoo-vzmut3xs2n.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.core#[.{fingerprint=vzmut3xs2n}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.core.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8mlpf8k0uq",
+      "Integrity": "sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.core.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\oqee013i8i-er8lbvj98m.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -7869,6 +8352,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\otqvkokkfy-4ksum12hez.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.abstractions#[.{fingerprint=4ksum12hez}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bucq71h7cl",
+      "Integrity": "g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.abstractions.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p1rga9wai7-vgbx8s3be4.gz",
@@ -7913,12 +8417,12 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm"
     },
     {
-      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-ih93s8u2ik.gz",
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-qk2g4yebbu.gz",
       "SourceId": "app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/app#[.{fingerprint=ih93s8u2ik}]!.wasm.gz",
+      "RelativePath": "_framework/app#[.{fingerprint=qk2g4yebbu}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7927,8 +8431,8 @@
       "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wz99w75q8q",
-      "Integrity": "3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk=",
+      "Fingerprint": "ssdgdpe61q",
+      "Integrity": "JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.wasm"
@@ -8270,6 +8774,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qy2b8dqcvl-y7eb9mzies.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/xunit.assert#[.{fingerprint=y7eb9mzies}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.assert.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6xpgfru0c2",
+      "Integrity": "OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.assert.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qzqsesl92x-nvvlpmu67g.gz",
       "SourceId": "app",
       "SourceType": "Discovered",
@@ -8501,12 +9026,12 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-qefjphl22s.gz",
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-tj8moncj9t.gz",
       "SourceId": "app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/app#[.{fingerprint=qefjphl22s}]!.pdb.gz",
+      "RelativePath": "_framework/app#[.{fingerprint=tj8moncj9t}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8515,8 +9040,8 @@
       "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g4cfdfjdll",
-      "Integrity": "4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c=",
+      "Fingerprint": "mgub06bz5r",
+      "Integrity": "9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb"
@@ -9194,6 +9719,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\x9p1omv3c3-deey92gx9y.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Diffing#[.{fingerprint=deey92gx9y}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Diffing.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "i2h06ccv7w",
+      "Integrity": "akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Diffing.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xdpj1n9gol-fy7c28mkpw.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -9234,6 +9780,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xkkzpyxiqc-o4jp2hcm79.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions#[.{fingerprint=o4jp2hcm79}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "iijz9b5a5s",
+      "Integrity": "di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xnmog9kvgn-fnotty3v8f.gz",
@@ -9404,6 +9971,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Compression.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z1xt9xdllt-vum2aqzk55.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization#[.{fingerprint=vum2aqzk55}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5psi1qg4s7",
+      "Integrity": "N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z4pmywjpa8-h6hjgw6cso.gz",
       "SourceId": "app",
       "SourceType": "Discovered",
@@ -9467,6 +10055,27 @@
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Private.Xml.wasm"
     },
     {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zit4olyuw9-ocntt9ppi1.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bunit.Core#[.{fingerprint=ocntt9ppi1}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Core.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "atj8x97e3s",
+      "Integrity": "Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Core.wasm"
+    },
+    {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zjgr2e8x0p-hvkv0vmwu0.gz",
       "SourceId": "app",
       "SourceType": "Computed",
@@ -9528,6 +10137,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.Debug.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zmyskl7xeu-up7648hgwu.gz",
+      "SourceId": "app",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp#[.{fingerprint=up7648hgwu}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fif7xyduen",
+      "Integrity": "udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.wasm"
     },
     {
       "Identity": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\znd2gi3pa6-oomazoigjz.gz",
@@ -10645,7 +11275,1175 @@
   ],
   "Endpoints": [
     {
-      "Route": "_framework/app.ih93s8u2ik.wasm",
+      "Route": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js",
+      "AssetFile": "C:\\Users\\heini\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.1\\staticwebassets\\AuthenticationService.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJXKqRCleT/Jk1wJUhUu24r2LAA7IWVYmdoENizE38M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 06:26:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJXKqRCleT/Jk1wJUhUu24r2LAA7IWVYmdoENizE38M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\f32kn295nz-gcvjxldlff.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013318062"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75085"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dmk/HbaCkisGr8Vgk5M4ZS0yeQNNs/uoWecA7Wrysbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 06:26:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kJXKqRCleT/Jk1wJUhUu24r2LAA7IWVYmdoENizE38M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJXKqRCleT/Jk1wJUhUu24r2LAA7IWVYmdoENizE38M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\f32kn295nz-gcvjxldlff.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dmk/HbaCkisGr8Vgk5M4ZS0yeQNNs/uoWecA7Wrysbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 06:26:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dmk/HbaCkisGr8Vgk5M4ZS0yeQNNs/uoWecA7Wrysbs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.7mdf44eez8.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Css.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "456981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mdf44eez8"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Css.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.7mdf44eez8.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5haehok5xb-7mdf44eez8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005596566"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178680"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mdf44eez8"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Css.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.7mdf44eez8.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5haehok5xb-7mdf44eez8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mdf44eez8"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Css.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Css.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "456981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5haehok5xb-7mdf44eez8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005596566"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178680"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r2aZp7+8f8gwyBFiZS0WaMON/yHp8Enf6wOl0ZXPagY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Css.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\5haehok5xb-7mdf44eez8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SIm8EHcW59p7U5iX6MnAR/335VSOSveGKM7dEgxF4VE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.deey92gx9y.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Diffing.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deey92gx9y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Diffing.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.deey92gx9y.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\x9p1omv3c3-deey92gx9y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025865860"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38660"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deey92gx9y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Diffing.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.deey92gx9y.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\x9p1omv3c3-deey92gx9y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deey92gx9y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.Diffing.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.Diffing.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\x9p1omv3c3-deey92gx9y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025865860"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38660"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1FTxM7qC47OMh5m3DWTRGpozyoW+VOC52eqbcXjNwo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.Diffing.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\x9p1omv3c3-deey92gx9y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-akw/G2c/3n4Jki5HICLxWj3jT/PhQjYTd8UI8NBuBbY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.up7648hgwu.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "up7648hgwu"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.up7648hgwu.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zmyskl7xeu-up7648hgwu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002816068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355104"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "up7648hgwu"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.up7648hgwu.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zmyskl7xeu-up7648hgwu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "up7648hgwu"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AngleSharp.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AngleSharp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zmyskl7xeu-up7648hgwu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002816068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355104"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiD87S/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AngleSharp.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zmyskl7xeu-up7648hgwu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-udx5jGVLRJ7fuPc6G6VeQNIHgL65L8ye/HUdjIjOA9w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/app.pdb",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/app.pdb",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-tj8moncj9t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000055648303"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17969"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/app.pdb.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-tj8moncj9t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/app.qk2g4yebbu.wasm",
       "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10663,11 +12461,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M=\""
+          "Value": "\"9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:05 GMT"
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10677,7 +12475,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ih93s8u2ik"
+          "Value": "qk2g4yebbu"
         },
         {
           "Name": "label",
@@ -10685,18 +12483,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M="
+          "Value": "sha256-9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw="
         }
       ]
     },
     {
-      "Route": "_framework/app.ih93s8u2ik.wasm",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-ih93s8u2ik.gz",
+      "Route": "_framework/app.qk2g4yebbu.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-qk2g4yebbu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000119104335"
+          "Quality": "0.000117688596"
         }
       ],
       "ResponseHeaders": [
@@ -10706,15 +12504,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8395"
+          "Value": "8496"
         },
         {
           "Name": "ETag",
-          "Value": "\"3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk=\""
+          "Value": "\"JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10734,13 +12532,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M=\""
+          "Value": "W/\"9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ih93s8u2ik"
+          "Value": "qk2g4yebbu"
         },
         {
           "Name": "label",
@@ -10748,13 +12546,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M="
+          "Value": "sha256-9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw="
         }
       ]
     },
     {
-      "Route": "_framework/app.ih93s8u2ik.wasm.gz",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-ih93s8u2ik.gz",
+      "Route": "_framework/app.qk2g4yebbu.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-qk2g4yebbu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10763,7 +12561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8395"
+          "Value": "8496"
         },
         {
           "Name": "Content-Type",
@@ -10771,11 +12569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk=\""
+          "Value": "\"JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10793,7 +12591,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ih93s8u2ik"
+          "Value": "qk2g4yebbu"
         },
         {
           "Name": "label",
@@ -10801,12 +12599,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk="
+          "Value": "sha256-JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8="
         }
       ]
     },
     {
-      "Route": "_framework/app.pdb",
+      "Route": "_framework/app.tj8moncj9t.pdb",
       "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10816,7 +12614,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23984"
+          "Value": "24936"
         },
         {
           "Name": "Content-Type",
@@ -10824,148 +12622,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA=\""
+          "Value": "\"N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/app.pdb",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-qefjphl22s.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000057517543"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17385"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/app.pdb.gz",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-qefjphl22s.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17385"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/app.qefjphl22s.pdb",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\app.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23984"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:04 GMT"
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10975,7 +12636,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qefjphl22s"
+          "Value": "tj8moncj9t"
         },
         {
           "Name": "label",
@@ -10983,18 +12644,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA="
+          "Value": "sha256-N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU="
         }
       ]
     },
     {
-      "Route": "_framework/app.qefjphl22s.pdb",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-qefjphl22s.gz",
+      "Route": "_framework/app.tj8moncj9t.pdb",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-tj8moncj9t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000057517543"
+          "Quality": "0.000055648303"
         }
       ],
       "ResponseHeaders": [
@@ -11004,15 +12665,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17385"
+          "Value": "17969"
         },
         {
           "Name": "ETag",
-          "Value": "\"4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c=\""
+          "Value": "\"9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11032,13 +12693,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA=\""
+          "Value": "W/\"N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qefjphl22s"
+          "Value": "tj8moncj9t"
         },
         {
           "Name": "label",
@@ -11046,13 +12707,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Pr6Bd8DZkteO2iH1vh9ZJM8J8HFMbauuc18mD+k0llA="
+          "Value": "sha256-N9cTl/ZoM02/UwP13TEwBbkNhKoU/Sr9L0ttVMFD4EU="
         }
       ]
     },
     {
-      "Route": "_framework/app.qefjphl22s.pdb.gz",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-qefjphl22s.gz",
+      "Route": "_framework/app.tj8moncj9t.pdb.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\sqs1cdrqyg-tj8moncj9t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11061,7 +12722,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17385"
+          "Value": "17969"
         },
         {
           "Name": "Content-Type",
@@ -11069,11 +12730,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c=\""
+          "Value": "\"9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11091,7 +12752,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qefjphl22s"
+          "Value": "tj8moncj9t"
         },
         {
           "Name": "label",
@@ -11099,7 +12760,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4NuXf6NevimWMQgA1jL7dJ2qOjCJ23DT5n2TkdSpu0c="
+          "Value": "sha256-9rYRcLQWACMFD1Vrlj6+IvGvAO9PC86eaMzoLXUkTBg="
         }
       ]
     },
@@ -11122,11 +12783,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M=\""
+          "Value": "\"9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:05 GMT"
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11136,18 +12797,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M="
+          "Value": "sha256-9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw="
         }
       ]
     },
     {
       "Route": "_framework/app.wasm",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-ih93s8u2ik.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-qk2g4yebbu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000119104335"
+          "Quality": "0.000117688596"
         }
       ],
       "ResponseHeaders": [
@@ -11157,15 +12818,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8395"
+          "Value": "8496"
         },
         {
           "Name": "ETag",
-          "Value": "\"3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk=\""
+          "Value": "\"JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11185,19 +12846,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M=\""
+          "Value": "W/\"9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OpHIFg7T4xz7jhtaKJ6YedqlfvNZY+k3syMJMumP78M="
+          "Value": "sha256-9qKBuIGHuHSjaJI/xKtTbSgf+hNocQSZxNkAL5boZHw="
         }
       ]
     },
     {
       "Route": "_framework/app.wasm.gz",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-ih93s8u2ik.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\p3vy3owl3m-qk2g4yebbu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11206,7 +12867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8395"
+          "Value": "8496"
         },
         {
           "Name": "Content-Type",
@@ -11214,11 +12875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk=\""
+          "Value": "\"JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11236,7 +12897,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3Abz1WU99j0/Be03d2+lAJ3FKihlqK33b/r0GJ+URSk="
+          "Value": "sha256-JMU7F4QaN6y2KMOWIQdv9725VPwyiaEim4xcl/76Sw8="
         }
       ]
     },
@@ -11259,7 +12920,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZYlp9Mj+koIh7FX4f0GJXUba5ixl0/p8PsmCQ/dm6Mg=\""
+          "Value": "\"Gjo794ZIyK0ys+q85itqViC/sSKs5D1YMGtOxQn9Jfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gjo794ZIyK0ys+q85itqViC/sSKs5D1YMGtOxQn9Jfk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-ebsb2l20eh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000076068766"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13145"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qH8Mwdp/qsBMJ0D77opWn9L7DrAvirOc3UXFeSZYVEE=\""
         },
         {
           "Name": "Last-Modified",
@@ -11268,45 +12968,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZYlp9Mj+koIh7FX4f0GJXUba5ixl0/p8PsmCQ/dm6Mg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-9fwxztxfda.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081267777"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12304"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ARJCf5z/gyh6O5NhE3x24ioJQImR+HOJ7WkUReoJn2w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11322,19 +12983,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZYlp9Mj+koIh7FX4f0GJXUba5ixl0/p8PsmCQ/dm6Mg=\""
+          "Value": "W/\"Gjo794ZIyK0ys+q85itqViC/sSKs5D1YMGtOxQn9Jfk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZYlp9Mj+koIh7FX4f0GJXUba5ixl0/p8PsmCQ/dm6Mg="
+          "Value": "sha256-Gjo794ZIyK0ys+q85itqViC/sSKs5D1YMGtOxQn9Jfk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-9fwxztxfda.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\53lfuox4wx-ebsb2l20eh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11343,7 +13004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12304"
+          "Value": "13145"
         },
         {
           "Name": "Content-Type",
@@ -11351,11 +13012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ARJCf5z/gyh6O5NhE3x24ioJQImR+HOJ7WkUReoJn2w=\""
+          "Value": "\"qH8Mwdp/qsBMJ0D77opWn9L7DrAvirOc3UXFeSZYVEE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 22:33:06 GMT"
+          "Value": "Fri, 09 May 2025 20:18:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11373,7 +13034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ARJCf5z/gyh6O5NhE3x24ioJQImR+HOJ7WkUReoJn2w="
+          "Value": "sha256-qH8Mwdp/qsBMJ0D77opWn9L7DrAvirOc3UXFeSZYVEE="
         }
       ]
     },
@@ -11511,6 +13172,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-aODHHN99ZO6xBdRfQYKCKDEdMXpBUI2D7x+JOLJt8MQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.ocntt9ppi1.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocntt9ppi1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.ocntt9ppi1.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zit4olyuw9-ocntt9ppi1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016111362"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocntt9ppi1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.ocntt9ppi1.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zit4olyuw9-ocntt9ppi1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocntt9ppi1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Core.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zit4olyuw9-ocntt9ppi1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016111362"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iBPxGu0hkWX+CDhNv+u+pTkQYAiZal25+xAaZuXFYww="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Core.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\zit4olyuw9-ocntt9ppi1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tot3eI/dhqsQHlIuLnsXD/gy//psIvurwymlGYsdaZc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.a4h8u089jo.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Web.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1632533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4h8u089jo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Web.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.a4h8u089jo.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8vo6lpqspn-a4h8u089jo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000001510246"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662143"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4h8u089jo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Web.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.a4h8u089jo.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8vo6lpqspn-a4h8u089jo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4h8u089jo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Bunit.Web.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Bunit.Web.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1632533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8vo6lpqspn-a4h8u089jo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000001510246"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662143"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VlndDwFB7KaB07co8blztRU7tA90Lup3qFX89Oyt1Ss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Bunit.Web.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8vo6lpqspn-a4h8u089jo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "662143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JGR/VpeIcFY2V/eDEMmjOnQpJwEbJOesb3ss+EcnR/M="
         }
       ]
     },
@@ -14495,6 +16752,304 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.vum2aqzk55.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vum2aqzk55"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.vum2aqzk55.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z1xt9xdllt-vum2aqzk55.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099186669"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10081"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vum2aqzk55"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.vum2aqzk55.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z1xt9xdllt-vum2aqzk55.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vum2aqzk55"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z1xt9xdllt-vum2aqzk55.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099186669"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10081"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwK8BjzpX6xFk8D/LqoC1QI9czCiuLd6J/zqGJwdP78="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\z1xt9xdllt-vum2aqzk55.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N1VS2+Fm3NzzfDnp+9aDpDhErW4dhUyFqhgG6Kvaln0="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.AspNetCore.Components.Forms.n0ihslit6r.wasm",
       "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
       "Selectors": [],
@@ -15389,6 +17944,304 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.syfcl4vhll.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "syfcl4vhll"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.syfcl4vhll.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\hg20r6hb3d-syfcl4vhll.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025547352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39142"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "syfcl4vhll"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.syfcl4vhll.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\hg20r6hb3d-syfcl4vhll.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "syfcl4vhll"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\hg20r6hb3d-syfcl4vhll.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025547352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39142"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC8EOVC037PLK7kiBBjTc4OgSJmE8IaSiBmv1uPpWSc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\hg20r6hb3d-syfcl4vhll.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJb0ihyo/XknGD4I+HQ1d/7+MQuluc9uLBeoETFEm0Q="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.AspNetCore.Components.WebAssembly.vtaucv50wj.wasm",
       "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Selectors": [],
@@ -16279,6 +19132,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-cxbEQt/pj5nq5EyzVCl+Q7+VLQBE2vKwLjTeK7n/Kt8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.n4gdu15a69.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n4gdu15a69"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.n4gdu15a69.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\gi4i2jnckr-n4gdu15a69.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000087565674"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11419"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n4gdu15a69"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.n4gdu15a69.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\gi4i2jnckr-n4gdu15a69.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n4gdu15a69"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\gi4i2jnckr-n4gdu15a69.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000087565674"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11419"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GRuHINqkO82CPGx3/zmizAKuuox9vqDvhZB1JzGMePQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Abstractions.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\gi4i2jnckr-n4gdu15a69.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZjOscdaivyF4RfZZh0dbrydNNpHgCBdcWHea/rV5xOg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.m0zs95a2si.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0zs95a2si"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Memory.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.m0zs95a2si.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\dufnr5lu0a-m0zs95a2si.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000056666856"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17646"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0zs95a2si"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Memory.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.m0zs95a2si.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\dufnr5lu0a-m0zs95a2si.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0zs95a2si"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Caching.Memory.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\dufnr5lu0a-m0zs95a2si.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000056666856"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17646"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rp1HqyjBA5QqRSeGy5R0044wkX3zedwjmYpLeLB5gAg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Caching.Memory.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\dufnr5lu0a-m0zs95a2si.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fdF3Jk6H4WB5cj3p7os8woHByHNvbanuWK0/17Mfqyo="
         }
       ]
     },
@@ -19259,6 +22708,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-fizuULGWA3lPCmOSL/UUYS+24aH+vTpDirBMFVi5FvU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xkkzpyxiqc-o4jp2hcm79.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000266453504"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xkkzpyxiqc-o4jp2hcm79.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xkkzpyxiqc-o4jp2hcm79.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000266453504"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\xkkzpyxiqc-o4jp2hcm79.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw="
         }
       ]
     },
@@ -71111,6 +74858,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-GZ++QEaqB/5tFOTpbnFK61hCI6KTmSkaBq1R7DHY35A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.4ksum12hez.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ksum12hez"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.4ksum12hez.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\otqvkokkfy-4ksum12hez.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000176118352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ksum12hez"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.4ksum12hez.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\otqvkokkfy-4ksum12hez.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ksum12hez"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13589"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\otqvkokkfy-4ksum12hez.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000176118352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.abstractions.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\otqvkokkfy-4ksum12hez.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g570Ghyp1LMBUDORlg5DxlEh3IrYRycBNvfxY0AO360="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.assert.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qy2b8dqcvl-y7eb9mzies.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011695770"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85500"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qy2b8dqcvl-y7eb9mzies.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.y7eb9mzies.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.assert.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7eb9mzies"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.assert.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.y7eb9mzies.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qy2b8dqcvl-y7eb9mzies.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011695770"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85500"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7eb9mzies"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.assert.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnLZSE8jXjmO7+W3hqAuwCXDfZGRk9J4FxXPk8G4+LE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.assert.y7eb9mzies.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\qy2b8dqcvl-y7eb9mzies.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7eb9mzies"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.assert.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OoLz6YwYpPh98iF3HTx+m4+S1e7po+xp6knTP6FuQJU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.vzmut3xs2n.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vzmut3xs2n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.vzmut3xs2n.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\o7ilqjjgoo-vzmut3xs2n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030245289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33062"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vzmut3xs2n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.vzmut3xs2n.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\o7ilqjjgoo-vzmut3xs2n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vzmut3xs2n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.core.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\o7ilqjjgoo-vzmut3xs2n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030245289"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33062"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FffEFEnxzZPLjB1ykURh7zASLe97ZU/htoyHRdA7FF0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.core.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\o7ilqjjgoo-vzmut3xs2n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAgbPLoPzlNasvOv0pHNuk8JNwN6ejdP5Mh0A7YN4tU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.f9tlfgrcb7.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.execution.dotnet.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9tlfgrcb7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.execution.dotnet.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.f9tlfgrcb7.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8ne9em6ssw-f9tlfgrcb7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007094463"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140954"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9tlfgrcb7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.execution.dotnet.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.f9tlfgrcb7.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8ne9em6ssw-f9tlfgrcb7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140954"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9tlfgrcb7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/xunit.execution.dotnet.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\bin\\Debug\\net9.0\\wwwroot\\_framework\\xunit.execution.dotnet.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.wasm",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8ne9em6ssw-f9tlfgrcb7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007094463"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140954"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nRl9xQJ0ODLXGNKtXmB3/XdezAQJVd8Oe/3KZd4A8+U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/xunit.execution.dotnet.wasm.gz",
+      "AssetFile": "C:\\Users\\heini\\Project\\app\\obj\\Debug\\net9.0\\compressed\\8ne9em6ssw-f9tlfgrcb7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140954"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 21:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyn6qtmJKcAzCPx7k8twVAsq/v81YRNRE3w+YdDyg9A="
         }
       ]
     },
