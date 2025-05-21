@@ -1,0 +1,28 @@
+name: Unit tests
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+ test:
+  runs-on: ubuntu-latest
+
+  steps:
+   - name: Checkout
+     uses: actions/checkout@v3
+
+   - name: Setup .NET
+     uses: actions/setup-dotnet@v3
+     with:
+      dotnet-version: '9.0'
+      
+   - name: Restore dependencies
+     run: dotnet restore ./app/app.csproj
+     
+   - name: Build
+     run: dotnet build ./app/app.csproj --no-restore
+     
+   - name: Run tests
+     run: dotnet test ./tests/tests.csproj --no-build --verbosity normal
