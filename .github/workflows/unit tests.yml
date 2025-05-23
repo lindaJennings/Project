@@ -25,4 +25,4 @@ jobs:
      run: dotnet build ./app/app.csproj --no-restore
      
    - name: Run tests
-     run: dotnet test ./tests/tests.csproj --no-build --logger "console;verbosity=detailed"
+     run: dotnet test ./tests/tests.csproj --no-build --verbosity normal
