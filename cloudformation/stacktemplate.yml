@@ -17,11 +17,20 @@ Parameters:
     Type: String
     Default: 10.0.2.0/24
     Description: CIDR for a private subnet.
+  
+  AllowedRegion:
+    Type: String
+    Default: eu-west-1a
+    AllowedValues:
+      - eu-west-1a
+      - eu-west-1b
+      - eu-west-1c
+    Description: EU West AWS region for Ireland.
 
   ImageId:
     Type: String
     Default: ami-054a53dca63de757b
-    Description: Linux AMI for Ireland eu-west-1a region
+    Description: Linux AMI for Ireland eu-west-1 region
 
   InstanceTypePublic:
     Type: String
@@ -36,6 +45,15 @@ Parameters:
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
     Description: SSH Keypair to login to the instance
+
+Mappings:
+  RegionMap:
+    eu-west-1a:
+      AMI: ami-054a53dca63de757b
+    eu-west-1b:
+      AMI: ami-05e6e2a6f387dc2bc
+    eu-west-1c:
+      AMI: ami-079b5e5b3971bd10d
 
 Resources:
   labVPC:
@@ -66,7 +84,7 @@ Resources:
     Properties:
       VpcId: labVPC
       CidrBlock: SubnetCIDR
-      AvailabilityZone: eu-west-1a
+      AvailabilityZone: AllowedRegion
       Tags:
         - Key: Name
           Value: labPublicSubnet
@@ -80,7 +98,7 @@ Resources:
     Properties:
       VpcId: labVPC
       CidrBlock: PrivateSubnetCIDR
-      AvailabilityZone: eu-west-1a
+      AvailabilityZone: AllowedRegion
       Tags:
         - Key: Name
           Value: labPrivateSubnet
@@ -226,7 +244,7 @@ Resources:
         MaxSize: 3
         DesiredSize: 2
       InstanceTypes:
-        - t3.medium
+        - t2.micro
       AmiType: AL2_x86_64
       RemoteAccess:
         Ec2SshKey: KeyName
