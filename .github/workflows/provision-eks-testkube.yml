@@ -1,0 +1,51 @@
+name: Provision EKS & Install Testkube
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup-eks-and-testkube:
+    runs-on: ubuntu-latest
+
+    env:
+      STACK_NAME: my-eks-cluster
+      TEMPLATE_FILE: stacktemplate.yml
+      CLUSTER_NAME: MyEKSCluster
+      REGION: ${{ secrets.AWS_REGION }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Create or update CloudFormation stack
+        run: |
+          aws cloudformation deploy \
+            --template-file $TEMPLATE_FILE \
+            --stack-name $STACK_NAME \
+            --capabilities CAPABILITY_NAMED_IAM
+
+      - name: Install kubectl
+        run: |
+          curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+          chmod +x kubectl
+          sudo mv kubectl /usr/local/bin
+
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --region $REGION --name $CLUSTER_NAME
+
+      - name: Install Testkube CLI
+        run: |
+          curl -sSLf https://repo.testkube.io/install | bash
+          echo "$HOME/.testkube/bin" >> $GITHUB_PATH
+
+      - name: Install Testkube in the cluster
+        run: |
+          testkube install --version latest --no-dashboard --namespace testkube

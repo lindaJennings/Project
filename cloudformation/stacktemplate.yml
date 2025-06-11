@@ -18,7 +18,7 @@ Parameters:
     Default: 10.0.2.0/24
     Description: CIDR for a private subnet.
 
-  AllowedRegion:
+  AvailabilityZone:
     Type: String
     Default: eu-west-1a
     AllowedValues:
@@ -27,27 +27,16 @@ Parameters:
       - eu-west-1c
     Description: EU West AWS region for Ireland.
 
-  ImageId:
+  ClusterName:
     Type: String
-    Default: ami-054a53dca63de757b
-    Description: Linux AMI for Ireland eu-west-1 region
-
-  InstanceTypePublic:
-    Type: String
-    Default: t2.micro
-    Description: EC2 instance for the public subnet.
-
-  InstanceTypePrivate:
-    Type: String
-    Default: t2.micro
-    Description: EC2 instance for the private subnet.
+    Default: MyEKSCluster
 
   KeyName:
     Type: AWS::EC2::KeyPair::KeyName
-    Description: SSH Keypair to login to the instance
+    Description: SSH Keypair to login to the worker node
 
 Resources:
-  labVPC:
+  VPC:
     Type: AWS::EC2::VPC
     Properties:
       CidrBlock: !Ref VpcCIDR
@@ -55,129 +44,84 @@ Resources:
       EnableDnsHostnames: true
       Tags:
         - Key: Name
-          Value: labVPC
+          Value: eksVPC
 
-  labInternetGateway:
+  InternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
         - Key: Name
-          Value: labInternetGateway
+          Value: eksInternetGateway
 
   AttachGateway:
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
-      VpcId: !Ref labVPC
-      InternetGatewayId: !Ref labInternetGateway
+      VpcId: !Ref VPC
+      InternetGatewayId: !Ref InternetGateway
 
-  labPublicSubnet:
+  PublicSubnet:
     Type: AWS::EC2::Subnet
     Properties:
-      VpcId: !Ref labVPC
+      VpcId: !Ref VPC
       CidrBlock: !Ref SubnetCIDR
-      AvailabilityZone: !Select
-        - 0
-        - !GetAZs ''
+      AvailabilityZone: !Ref AvailabilityZone
+      MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
-          Value: labPublicSubnet
+          Value: eksPublicSubnet
         - Key: kubernetes.io/role/elb
           Value: '1'
-        - Key: kubernetes.io/cluster/MyEKSCluster
+        - Key: kubernetes.io/cluster/!Ref ClusterName
           Value: owned
 
-  labPrivateSubnet:
+  PrivateSubnet:
     Type: AWS::EC2::Subnet
     Properties:
-      VpcId: !Ref labVPC
+      VpcId: !Ref VPC
       CidrBlock: !Ref PrivateSubnetCIDR
-      AvailabilityZone: !Select
-        - 0
-        - !GetAZs ''
+      AvailabilityZone: !Ref AvailabilityZone
       Tags:
         - Key: Name
-          Value: labPrivateSubnet
+          Value: eksPrivateSubnet
         - Key: kubernetes.io/role/internal-elb
           Value: '1'
-        - Key: kubernetes.io/cluster/MyEKSCluster
+        - Key: kubernetes.io/cluster/!Ref ClusterName
           Value: owned
 
-  labPublicRouteTable:
+  PublicRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: !Ref labVPC
+      VpcId: !Ref VPC
       Tags:
         - Key: Name
-          Value: labPublicRouteTable
+          Value: eksPublicRouteTable
 
-  labPublicRoute:
+  PublicRoute:
     Type: AWS::EC2::Route
     Properties:
-      RouteTableId: !Ref labPublicRouteTable
+      RouteTableId: !Ref PublicRouteTable
       DestinationCidrBlock: 0.0.0.0/0
-      GatewayId: !Ref labInternetGateway
+      GatewayId: !Ref InternetGateway
 
-  labPublicSubnetRouteTableAssociation:
+  PublicSubnetRouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
-      SubnetId: !Ref labPublicSubnet
-      RouteTableId: !Ref labPublicRouteTable
+      SubnetId: !Ref PublicSubnet
+      RouteTableId: !Ref PublicRouteTable
 
-  labPrivateRouteTable:
+  PrivateRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
-      VpcId: !Ref labVPC
+      VpcId: !Ref VPC
       Tags:
         - Key: Name
-          Value: labPrivateRouteTable
+          Value: eksPrivateRouteTable
 
-  labPrivateSubnetRouteTableAssociation:
+  PrivateSubnetRouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
-      SubnetId: !Ref labPrivateSubnet
-      RouteTableId: !Ref labPrivateRouteTable
-
-  labPublicInstanceSG:
-    Type: AWS::EC2::SecurityGroup
-    Properties:
-      GroupDescription: Allow http and ssh to public subnet
-      VpcId: !Ref labVPC
-      SecurityGroupIngress:
-        - IpProtocol: tcp
-          FromPort: 80
-          ToPort: 80
-          CidrIp: 0.0.0.0/0
-        - IpProtocol: tcp
-          FromPort: 22
-          ToPort: 22
-          CidrIp: 0.0.0.0/0
-
-  labPrivateInstanceSG:
-    Type: AWS::EC2::SecurityGroup
-    Properties:
-      GroupDescription: Allow SSH access from public instance
-      VpcId: !Ref labVPC
-      SecurityGroupIngress:
-        - IpProtocol: tcp
-          FromPort: 22
-          ToPort: 22
-          SourceSecurityGroupId: !Ref labPublicInstanceSG
-
-  labPublicInstance:
-    Type: AWS::EC2::Instance
-    Properties:
-      InstanceType: !Ref InstanceTypePublic
-      ImageId: !Ref ImageId
-      KeyName: !Ref KeyName
-      SubnetId: !Ref labPublicSubnet
-
-  labPrivateInstance:
-    Type: AWS::EC2::Instance
-    Properties:
-      InstanceType: !Ref InstanceTypePrivate
-      ImageId: !Ref ImageId
-      KeyName: !Ref KeyName
-      SubnetId: !Ref labPrivateSubnet
+      SubnetId: !Ref PrivateSubnet
+      RouteTableId: !Ref PrivateRouteTable
 
   EKSClusterRole:
     Type: AWS::IAM::Role
@@ -193,7 +137,6 @@ Resources:
               - sts:AssumeRole
       ManagedPolicyArns:
         - arn:aws:iam::aws:policy/AmazonEKSClusterPolicy
-      Path: /
 
   EKSNodeGroupRole:
     Type: AWS::IAM::Role
@@ -211,33 +154,30 @@ Resources:
         - arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy
         - arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
         - arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy
-      Path: /
 
   EKSCluster:
     Type: AWS::EKS::Cluster
     Properties:
-      Name: MyEKSCluster
-      RoleArn: !Ref EKSClusterRole
+      Name: !Ref ClusterName
+      RoleArn: !GetAtt EKSClusterRole.arn
       ResourcesVpcConfig:
         SubnetIds:
-          - !Ref labPublicSubnet
-          - !Ref labPrivateSubnet
-        SecurityGroupIds:
-          - !Ref labPublicInstanceSG
+          - !Ref PublicSubnet
+          - !Ref PrivateSubnet
       Version: '1.29'
 
   EKSNodeGroup:
     Type: AWS::EKS::Nodegroup
     Properties:
       ClusterName: !Ref EKSCluster
-      NodegroupName: eks-node-group
-      NodeRole: !Ref EKSNodeGroupRole
+      NodegroupName: !Sub "${ClusterName}-nodegroup"
+      NodeRole: !GetAtt EKSNodeGroupRole.arn
       Subnets:
-        - !Ref labPrivateSubnet
+        - !Ref PrivateSubnet
       ScalingConfig:
         MinSize: 1
-        MaxSize: 3
         DesiredSize: 2
+        MaxSize: 3
       InstanceTypes:
         - t2.micro
       AmiType: AL2_x86_64
@@ -246,23 +186,14 @@ Resources:
 
 Outputs:
   VPCId:
-    Description: VPC ID
-    Value: labVPC
+    Value: !Ref VPC
   PublicSubnetId:
-    Description: Public Subnet ID
-    Value: labPublicSubnet
+    Value: !Ref PublicSubnet
   PrivateSubnetId:
-    Description: Private Subnet ID
-    Value: labPrivateSubnet
-  PublicInstanceId:
-    Description: Public EC2 Instance ID
-    Value: labPublicInstance
-  PrivateInstanceId:
-    Description: Private EC2 Instance ID
-    Value: labPrivateInstance
+    Value: !Ref PrivateSubnet
   EKSClusterName:
-    Description: EKS Cluster Name
-    Value: EKSCluster
+    Value: !Ref EKSCluster
   EKSNodeGroupName:
-    Description: EKS Node Group Name
-    Value: EKSNodeGroup
+    Value: !Ref EKSNodeGroup
+  EKSClusterEndpoint:
+    Value: !GetAtt EKSCluster.Endpoint
