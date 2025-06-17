@@ -32,7 +32,7 @@ jobs:
             --capabilities CAPABILITY_NAMED_IAM \
             --region ${{ secrets.AWS_REGION }} \
             --no-fail-on-empty-changeset
-            --parameter-overrides KeyName=${{ secrets.EC2_KEY_NAME }}
+            --parameter-overrides KeyName="${{ secrets.EC2_KEY_NAME }}"
 
       - name: Update kubeconfig
         run: |
