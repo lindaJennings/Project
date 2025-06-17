@@ -12,6 +12,7 @@ jobs:
       TEMPLATE_FILE: cloudformation/stacktemplate.yml
       CLUSTER_NAME: MyEKSCluster
       REGION: ${{ secrets.AWS_REGION }}
+      EC2_KEY_NAME: ${{ secrets.EC2_KEY_NAME }}
 
     steps:
       - name: Checkout repository
@@ -32,7 +33,7 @@ jobs:
             --capabilities CAPABILITY_NAMED_IAM \
             --region ${{ secrets.AWS_REGION }} \
             --no-fail-on-empty-changeset
-            --parameter-overrides KeyName="${{ secrets.EC2_KEY_NAME }}"
+            --parameter-overrides KeyName="$EC2_KEY_NAME"
 
       - name: Update kubeconfig
         run: |
