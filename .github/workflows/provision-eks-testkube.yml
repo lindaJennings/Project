@@ -29,23 +29,12 @@ jobs:
           aws cloudformation deploy \
             --template-file $TEMPLATE_FILE \
             --stack-name $STACK_NAME \
-            --capabilities CAPABILITY_NAMED_IAM
-
-      - name: Install kubectl
-        run: |
-          curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-          chmod +x kubectl
-          sudo mv kubectl /usr/local/bin
+            --capabilities CAPABILITY_NAMED_IAM \
+            --region ${{ secrets.AWS_REGION }} \
+            --no-fail-on-empty-changeset
 
       - name: Update kubeconfig
         run: |
-          aws eks update-kubeconfig --region $REGION --name $CLUSTER_NAME
-
-      - name: Install Testkube CLI
-        run: |
-          curl -sSLf https://repo.testkube.io/install | bash
-          echo "$HOME/.testkube/bin" >> $GITHUB_PATH
-
-      - name: Install Testkube in the cluster
-        run: |
-          testkube install --version latest --no-dashboard --namespace testkube
+          aws eks update-kubeconfig \
+            --name $CLUSTER_NAME \
+            --region ${{ secrets.AWS_REGION }}
