@@ -9,7 +9,7 @@ jobs:
 
     env:
       STACK_NAME: my-eks-cluster
-      TEMPLATE_FILE: stacktemplate.yml
+      TEMPLATE_FILE: cloudformation/stacktemplate.yml
       CLUSTER_NAME: MyEKSCluster
       REGION: ${{ secrets.AWS_REGION }}
 
