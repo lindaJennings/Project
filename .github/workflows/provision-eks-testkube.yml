@@ -25,15 +25,16 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Create or update CloudFormation stack
+      - name: Deploy CloudFormation stack
         run: |
+          echo "DEBUG KeyName is '${{ secrets.EC2_KEY_NAME:-__EMPTY__}}'"
           aws cloudformation deploy \
             --template-file $TEMPLATE_FILE \
             --stack-name $STACK_NAME \
             --capabilities CAPABILITY_NAMED_IAM \
-            --region ${{ secrets.AWS_REGION }} \
-            --no-fail-on-empty-changeset
-            --parameter-overrides KeyName="$EC2_KEY_NAME"
+            --region $REGION \
+            --no-fail-on-empty-changeset \
+            --parameter-overrides KeyName="${{ secrets.EC2_KEY_NAME }}"
 
       - name: Update kubeconfig
         run: |
