@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy CloudFormation stack
         run: |
-          echo "DEBUG KeyName is '${{ secrets.EC2_KEY_NAME:-__EMPTY__}}'"
+          echo "DEBUG KeyName is '${{ secrets.EC2_KEY_NAME }}'"
           aws cloudformation deploy \
             --template-file $TEMPLATE_FILE \
             --stack-name $STACK_NAME \
