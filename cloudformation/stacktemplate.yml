@@ -18,14 +18,15 @@ Parameters:
     Default: 10.0.2.0/24
     Description: CIDR for a private subnet.
 
-  AvailabilityZone:
+  AvailabilityZone1:
     Type: String
     Default: eu-west-1a
-    AllowedValues:
-      - eu-west-1a
-      - eu-west-1b
-      - eu-west-1c
-    Description: EU West AWS region for Ireland.
+    Description: EU West AWS region for public subnet Ireland.
+
+  AvailabilityZone2:
+    Type: String
+    Default: eu-west-1b
+    Description: EU West AWS region for private subnet Ireland.
 
   ClusterName:
     Type: String
@@ -64,7 +65,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       CidrBlock: !Ref SubnetCIDR
-      AvailabilityZone: !Ref AvailabilityZone
+      AvailabilityZone: !Ref AvailabilityZone1
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
@@ -79,7 +80,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       CidrBlock: !Ref PrivateSubnetCIDR
-      AvailabilityZone: !Ref AvailabilityZone
+      AvailabilityZone: !Ref AvailabilityZone2
       Tags:
         - Key: Name
           Value: eksPrivateSubnet
