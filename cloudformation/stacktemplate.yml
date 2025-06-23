@@ -159,7 +159,7 @@ Resources:
     Type: AWS::EKS::Cluster
     Properties:
       Name: !Ref ClusterName
-      RoleArn: !GetAtt EKSClusterRole.arn
+      RoleArn: !GetAtt EKSClusterRole.Arn
       ResourcesVpcConfig:
         SubnetIds:
           - !Ref PublicSubnet
@@ -171,7 +171,7 @@ Resources:
     Properties:
       ClusterName: !Ref EKSCluster
       NodegroupName: !Sub "${ClusterName}-nodegroup"
-      NodeRole: !GetAtt EKSNodeGroupRole.arn
+      NodeRole: !GetAtt EKSNodeGroupRole.Arn
       Subnets:
         - !Ref PrivateSubnet
       ScalingConfig:
