@@ -1,4 +1,4 @@
-name: Provision EKS & Install Testkube
+name: Provision EKS
 
 on:
   workflow_dispatch:
