@@ -13,10 +13,15 @@ Parameters:
     Default: 10.0.1.0/24
     Description: CIDR for public subnet.
 
-  PrivateSubnetCIDR:
+  PrivateSubnetCIDR1:
     Type: String
     Default: 10.0.2.0/24
-    Description: CIDR for a private subnet.
+    Description: CIDR for a private subnet 1.
+
+  PrivateSubnetCIDR2:
+    Type: String
+    Default: 10.0.3.0/24
+    Description: CIDR for a private subnet 2.
 
   AvailabilityZone1:
     Type: String
@@ -72,21 +77,35 @@ Resources:
           Value: eksPublicSubnet
         - Key: kubernetes.io/role/elb
           Value: '1'
-        - Key: kubernetes.io/cluster/!Ref ClusterName
+        - Key: !Sub "kubernetes.io/cluster/${ClusterName}"
           Value: owned
 
-  PrivateSubnet:
+  PrivateSubnet1:
     Type: AWS::EC2::Subnet
     Properties:
       VpcId: !Ref VPC
-      CidrBlock: !Ref PrivateSubnetCIDR
-      AvailabilityZone: !Ref AvailabilityZone2
+      CidrBlock: !Ref PrivateSubnetCIDR1
+      AvailabilityZone: !Ref AvailabilityZone1
       Tags:
         - Key: Name
           Value: eksPrivateSubnet
         - Key: kubernetes.io/role/internal-elb
           Value: '1'
-        - Key: kubernetes.io/cluster/!Ref ClusterName
+        - Key: !Sub "kubernetes.io/cluster/${ClusterName}"
+          Value: owned
+
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: !Ref PrivateSubnetCIDR2
+      AvailabilityZone: !Ref AvailabilityZone2
+      Tags:
+        - Key: Name
+          Value: eksPrivateSubnet2
+        - Key: kubernetes.io/role/internal-elb
+          Value: '1'
+        - Key: !Sub "kubernetes.io/cluster/${ClusterName}"
           Value: owned
 
   PublicRouteTable:
@@ -118,10 +137,16 @@ Resources:
         - Key: Name
           Value: eksPrivateRouteTable
 
-  PrivateSubnetRouteTableAssociation:
+  PrivateSubnet1RouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
-      SubnetId: !Ref PrivateSubnet
+      SubnetId: !Ref PrivateSubnet1
+      RouteTableId: !Ref PrivateRouteTable
+
+  PrivateSubnet2RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PrivateSubnet2
       RouteTableId: !Ref PrivateRouteTable
 
   EKSClusterRole:
@@ -163,8 +188,8 @@ Resources:
       RoleArn: !GetAtt EKSClusterRole.Arn
       ResourcesVpcConfig:
         SubnetIds:
-          - !Ref PublicSubnet
-          - !Ref PrivateSubnet
+          - !Ref PrivateSubnet1
+          - !Ref PrivateSubnet2
       Version: '1.29'
 
   EKSNodeGroup:
@@ -174,13 +199,14 @@ Resources:
       NodegroupName: !Sub "${ClusterName}-nodegroup"
       NodeRole: !GetAtt EKSNodeGroupRole.Arn
       Subnets:
-        - !Ref PrivateSubnet
+        - !Ref PrivateSubnet1
+        - !Ref PrivateSubnet2
       ScalingConfig:
         MinSize: 1
         DesiredSize: 2
         MaxSize: 3
       InstanceTypes:
-        - t2.micro
+        - t3.small
       AmiType: AL2_x86_64
       RemoteAccess:
         Ec2SshKey: !Ref KeyName
@@ -190,8 +216,10 @@ Outputs:
     Value: !Ref VPC
   PublicSubnetId:
     Value: !Ref PublicSubnet
-  PrivateSubnetId:
-    Value: !Ref PrivateSubnet
+  PrivateSubnet1Id:
+    Value: !Ref PrivateSubnet1
+  PrivateSubnet2Id:
+    Value: !Ref PrivateSubnet2
   EKSClusterName:
     Value: !Ref EKSCluster
   EKSNodeGroupName:
