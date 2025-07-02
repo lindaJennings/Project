@@ -200,7 +200,6 @@ Resources:
       NodeRole: !GetAtt EKSNodeGroupRole.Arn
       Subnets:
         - !Ref PublicSubnet
-        - !Ref PrivateSubnet2
       ScalingConfig:
         MinSize: 1
         DesiredSize: 2
