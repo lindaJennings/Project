@@ -199,7 +199,7 @@ Resources:
       NodegroupName: !Sub "${ClusterName}-nodegroup"
       NodeRole: !GetAtt EKSNodeGroupRole.Arn
       Subnets:
-        - !Ref PrivateSubnet1
+        - !Ref PublicSubnet
         - !Ref PrivateSubnet2
       ScalingConfig:
         MinSize: 1
