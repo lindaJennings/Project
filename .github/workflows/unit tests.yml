@@ -1,4 +1,4 @@
-name: Unit tests
+name: Unit tests outside of cluster
 
 on:
   #schedule:
