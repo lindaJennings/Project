@@ -1,0 +1,47 @@
+name: Run EKS tests with Testkube
+
+on:
+  #push:
+    #branches: [ main ]
+  #pull_request:
+    workflow_dispatch:
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: v1.29.0
+
+      - name: Update kubeconfig for EKS
+        run: |
+          aws eks update-kubeconfig --region eu-west-1 --name MyEKSCluster
+
+      - name: Install Testkube CLI
+        run: |
+          curl -sSLf https://kubeshop.github.io/testkube/install | bash
+
+      - name: Recreate Testkube test with latest Docker image
+        run: |
+          kubectl testkube delete test webapp-docker-tests || true
+          kubectl testkube create test webapp-docker-tests \
+            --type container-executor \
+            --executor container \
+            --content "docker.io/l00188525/webapptests:v1.0"
+
+      - name: Run tests via Testkube
+        run: |
+          kubectl testkube run test webapp-docker-tests --watch
