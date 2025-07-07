@@ -23,8 +23,11 @@ jobs:
         aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
 
     - name: Install Testkube CLI
-      run: |
-        curl -sSLf https://get.testkube.io | sh
+      uses: kubeshop/testkube-docker-action@v1.4
+      with:
+        command: get
+        resource: tests
+        namespace: testkube
 
     - name: Install Testkube in cluster
       run: |
