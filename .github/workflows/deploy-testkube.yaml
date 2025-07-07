@@ -30,4 +30,4 @@ jobs:
 
     - name: Install Testkube in cluster
       run: |
-        testkube init --namespace testkube
+        kubectl-testkube init --namespace testkube
