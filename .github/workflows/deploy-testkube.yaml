@@ -25,7 +25,6 @@ jobs:
     - name: Install Testkube CLI
       uses: kubeshop/testkube-docker-action@v1.4
       with:
-        kubeconfig: /home/runner/.kube/config
         command: get
         resource: tests
         namespace: testkube
