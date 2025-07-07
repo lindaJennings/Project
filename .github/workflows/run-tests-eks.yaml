@@ -21,18 +21,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Setup kubectl
-        uses: azure/setup-kubectl@v3
-        with:
-          version: v1.29.0
-
       - name: Update kubeconfig for EKS
         run: |
           aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
 
-      - name: Install Testkube CLI
-        run: |
-          curl -sSLf https://kubeshop.github.io/testkube/install | bash
+      - uses: kubeshop/setup-testkube@v1
 
       - name: Recreate Testkube test with latest Docker image
         run: |
