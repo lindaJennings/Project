@@ -24,11 +24,7 @@ jobs:
 
     - name: Install Testkube CLI
       run: |
-        curl -LO https://github.com/kubeshop/testkube/releases/download/v1.15.3/testkube_1.15.3_linux_amd64.tar.gz
-        tar -xzf testkube_1.15.3_linux_amd64.tar.gz
-        chmod +x kubectl-testkube
-        sudo mv kubectl-testkube /usr/local/bin/kubectl-testkube
-        kubectl-testkube version
+        curl -sSLf https://get.testkube.io | sh
 
     - name: Install Testkube in cluster
       run: |
