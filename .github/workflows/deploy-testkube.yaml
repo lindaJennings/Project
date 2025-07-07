@@ -28,7 +28,3 @@ jobs:
         command: get
         resource: tests
         namespace: testkube
-
-    - name: Install Testkube in cluster
-      run: |
-        kubectl-testkube init --namespace testkube
