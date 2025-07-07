@@ -24,7 +24,9 @@ jobs:
 
     - name: Install Testkube CLI
       run: |
-        curl -sSLf https://get.testkube.io | sh
+        curl -L https://github.com/kubeshop/testkube/releases/download/v1.15.3/kubectl-testkube-v1.15.3-linux-amd64 \
+        -o /usr/local/bin/kubectl-testkube
+        chmod +x /usr/local/bin/kubectl-testkube
 
     - name: Install Testkube in cluster
       run: |
