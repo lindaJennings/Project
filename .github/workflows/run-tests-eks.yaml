@@ -25,17 +25,8 @@ jobs:
         run: |
           aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
 
-      - name: Interact with Testkube
-        uses: kubeshop/setup-testkube@v1
-        with:
-          organization: tkcorg_1fb88f6e8c51bd20
-          environment: tkcenv_280a6a0f17801dd1
-          token: tkcenv_bc4015c0514c214b_join_token
-
-      - name: Create workflow    
-        run: |
-          testkube create testworkflow -f k8s/test_deployment.yaml
+      - name: Deploy TestWorkflow
+        run: kubectl apply -f k8s/test_deployment.yaml
 
       - name: Run tests
-        run: |
-          testkube run testworkflow my-docker-tests -f
+        run: kubectl-testkube run testworkflow my-docker-tests -n testkube
