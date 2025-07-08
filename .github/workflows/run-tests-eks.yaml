@@ -38,4 +38,4 @@ jobs:
 
       - name: Create workflow    
         run: |
-          testkube create testworkflow -f test_deployment.yaml
+          testkube create testworkflow -f k8s/test_deployment.yaml
