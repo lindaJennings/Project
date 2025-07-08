@@ -24,10 +24,8 @@ jobs:
 
     - name: Install Testkube CLI
       run: |
-        curl -LO https://github.com/kubeshop/testkube/releases/download/v1.15.3/kubectl-testkube_v1.15.3_linux_x86_64
-        chmod +x kubectl-testkube_v1.15.3_linux_x86_64
-        sudo mv kubectl-testkube_v1.15.3_linux_x86_64 /usr/local/bin/kubectl-testkube
-        kubectl-testkube version
+        curl -sSLf https://get.testkube.io | sh
+        testkube pro init --agent-token=tkcagnt_1beb76ac7e1d25696e17ccb4289616 --org-id=tkcorg_1fb88f6e8c51bd20 --env-id=tkcenv_601193720b17f38b
         
     - name: Install Testkube on EKS cluster
       run: |
