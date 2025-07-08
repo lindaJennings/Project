@@ -28,3 +28,7 @@ jobs:
         command: get
         resource: tests
         namespace: testkube
+        
+    - name: Install Testkube on EKS cluster
+      run: |
+        kubectl-testkube install --namespace testkube --yes
