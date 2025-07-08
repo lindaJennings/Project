@@ -27,14 +27,6 @@ jobs:
 
       - uses: kubeshop/setup-testkube@v1
 
-      - name: Recreate Testkube test with latest Docker image
-        run: |
-          kubectl testkube delete test webapp-docker-tests || true
-          kubectl testkube create test webapp-docker-tests \
-            --type container-executor \
-            --executor container \
-            --content "docker.io/l00188525/webapptests:v1.0"
-
       - name: Run tests via Testkube
         run: |
           kubectl testkube run test webapp-docker-tests --watch
