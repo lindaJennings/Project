@@ -1,0 +1,19 @@
+apiVersion: testworkflows.testkube.io/v1
+kind: TestWorkflow
+metadata:
+  name: my-docker-tests
+  namespace: testkube
+spec:
+  steps:
+    - name: run-tests
+      container:
+        image: l00188525/webapptests:v1.0
+        command: ["/bin/sh", "-c"]
+        args: ["echo Running tests... && ./run_tests.sh"]
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
