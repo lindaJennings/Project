@@ -38,4 +38,4 @@ jobs:
                 
     - name: Install Testkube on EKS cluster
       run: |
-        testkube install --namespace testkube --yes
+        testkube install --namespace testkube
