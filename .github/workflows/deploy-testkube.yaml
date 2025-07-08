@@ -22,11 +22,17 @@ jobs:
       run: |
         aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
 
+    - name: Install kubectl
+      run: |
+        curl -LO "https://dl.k8s.io/release/v1.27.4/bin/linux/amd64/kubectl"
+        chmod +x kubectl
+        sudo mv kubectl /usr/local/bin/
+        kubectl version --client
+
     - name: Install Testkube CLI
       run: |
         curl -sSLf https://get.testkube.io | sh
-        testkube pro init --agent-token=tkcagnt_1beb76ac7e1d25696e17ccb4289616 --org-id=tkcorg_1fb88f6e8c51bd20 --env-id=tkcenv_601193720b17f38b
-        
+                
     - name: Install Testkube on EKS cluster
       run: |
         kubectl-testkube install --namespace testkube --yes
