@@ -35,4 +35,4 @@ jobs:
                 
     - name: Install Testkube on EKS cluster
       run: |
-        kubectl testkube install --namespace testkube --yes
+        testkube install --namespace testkube --yes
