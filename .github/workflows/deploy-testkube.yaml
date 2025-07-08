@@ -38,4 +38,6 @@ jobs:
                 
     - name: Install Testkube on EKS cluster
       run: |
-        testkube install --namespace testkube
+        testkube install crd --namespace testkube
+        testkube install agent --namespace testkube
+        testkube install runner --namespace testkube
